@@ -1,9 +1,9 @@
-const { Employee } = require('../models');
+const { Customer } = require('../models');
 
-const employeeData = [
+const customerData = [
 
 ]
 
-const seedEmployee = () => Roster.bulkCreate(employeeData);
+const seedCustomer = () => Roster.bulkCreate(customerData);
 
-module.exports = seedEmployee;
+module.exports = seedCustomer;

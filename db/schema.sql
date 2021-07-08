@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS fixit5_db;
+
+CREATE DATABASE fixit5_db;
+

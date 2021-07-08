@@ -2,11 +2,8 @@ const sequelize = require('../config/connection');
 
 const seedEmployee = require('./employee-seeds');
 const seedJob = require('./job-seeds');
-//const { User , Pokemon } = require('')
 const seedCustomer = require('./customer-seeds');
 
-const pokemonData = require('./pokemonSeedData.json');
-const seedRoster = require('./roster-seeds');
 const seedAll = async () => {
   await sequelize.sync({ force: true });
   console.log('\n----- DATABASE SYNCED -----\n');

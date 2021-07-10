@@ -3,11 +3,11 @@ const Customer = require('./Customer');
 const Employee = require('./Employee');
 
 Employee.hasMany(Job, {
-  foreignKey: 'pokemon_id'
+  foreignKey: ''
 });
 
-Customer.hasMany(Roster, {
-  foreignKey: 'user_id',
+Customer.hasMany(Job, {
+  foreignKey: '',
   onDelete: 'CASCADE'
 });
 

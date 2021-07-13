@@ -22,13 +22,13 @@ Employee.init(
       type: DataTypes.STRING
     },
     email: {
-      type: DataTypes.INTEGER
+      type: DataTypes.STRING
     },
     specialty: {
-      type: DataTypes.INTEGER
+      type: DataTypes.STRING
     },
     foreign_key: {
-        type: DataTypes.INTEGER
+        type: DataTypes.STRING
     }
   },
   {

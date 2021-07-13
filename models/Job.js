@@ -1,6 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const seedJob = require('../seeds/job-seeds');
+//const seedJob = require('../seeds/job-seeds');
 
 class Job extends Model {}
 

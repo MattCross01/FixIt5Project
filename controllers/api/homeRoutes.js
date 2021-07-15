@@ -1,7 +1,11 @@
-<<<<<<< HEAD
-const path = require('path');
 
-module.exports = (app) => {
+const path = require('path');
+const router = require('express').Router();
+const { Customer, Employee, Job } = require('../../models');
+const withAuth = require('../../utils/auth');
+
+
+const paths = (app) => {
     app.get('/customer', (req,res) => {
         res.sendfile(path.join(__dirname, '../public/customer.html'));
     });
@@ -14,10 +18,7 @@ module.exports = (app) => {
         res.sendfile(path.join(__dirname, '../public/index.html'));
     });
 }
-=======
-const router = require('express').Router();
-const { Customer, Employee, Job } = require('../models');
-const withAuth = require('../utils/auth');
+
 
 router.get('/', async (req, res) => {
     try{
@@ -69,4 +70,3 @@ router.get('/profile', withAuth, async (req, res) => {
 
 
 module.exports = router;
->>>>>>> 5b6d7a7c8b41ddef77859e978ec1545d2c6aac51

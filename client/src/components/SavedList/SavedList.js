@@ -19,8 +19,7 @@ class ResultList extends Component {
             deleteGoogleBook={this.props.deleteGoogleBook}
             />
         ))
-        )
-                           
+        )                         
     }
 }
 

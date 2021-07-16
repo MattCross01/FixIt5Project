@@ -61,7 +61,7 @@ class Home extends Component {
                 <Container fluid>
                 <Jumbotron />
                 <form>
-                    <h5>Search for books</h5>
+                    <h5>Search for jobs:</h5>
                     <Input 
                         value={this.state.search}
                         onChange={this.handleInputChange}

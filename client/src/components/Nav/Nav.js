@@ -8,7 +8,7 @@ function Nav() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark">
-                <Link className="navbar-brand" to="/">FIXIT5</Link>
+                {/* <Link className="navbar-brand" to="/">FIXIT5</Link> */}
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

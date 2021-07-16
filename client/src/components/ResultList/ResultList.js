@@ -18,8 +18,7 @@ class ResultList extends Component {
             saveGoogleBook={this.props.saveGoogleBook}
             />
         ))
-        )
-                           
+        )              
     }
 }
 

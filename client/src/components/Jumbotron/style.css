@@ -4,13 +4,9 @@
     background-size: cover;
     height: 500px;
     background-position: center;
+    border-radius: 0%;
 }
 
-.myText {
-    color: rgb(0, 183, 255);
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 56px;
-    position: relative;
-    transform: translateY(100px)
+.padding{
+    padding: 10px,10px,10px,10px;
 }

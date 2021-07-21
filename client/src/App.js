@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Saved from "./pages/Saved";
 import Customers from "./pages/Customers";
 import Employees from "./pages/Employees";
 import Billing from "./pages/Billing";
 import SignUp from "./components/SignUp/SignUp";
+import SignIn from "./components/SignIn/SignIn";
 import Nav from "./components/Nav";
 // import Footer from "./components/Footer";
 
@@ -24,11 +25,14 @@ class App extends Component {
                     <Route exact path="/customers" component={Customers} />
                     <Route exact path="/employees" component={Employees} />
                     <Route exact path="/billing" component={Billing} />
+
                 <div className="auth-wrapper">
                 <div className="auth-inner">
                     <Route exact path="/signup" component={SignUp} />
+                    <Route exact path="/signin" component={SignIn} />
                 </div>
                 </div>
+                
                 </Switch>
                 {/* <Footer /> */}
             </div>

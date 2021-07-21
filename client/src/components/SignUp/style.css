@@ -1,0 +1,16 @@
+.divHead{
+    border-bottom: 1px solid black;
+}
+
+h6{
+    color: #5cab49;
+}
+
+.btn-primary{
+    background-color: #5cab49;
+    border-color: #5cab49;
+} 
+
+a{
+    color: #5cab49;
+}

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container } from "../components/Grid/Grid";
-import Nav from "../components/Nav/Nav";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -59,7 +58,6 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Nav />
                 <Jumbotron/>
                 <Container fluid>  
                     <Row>
@@ -113,26 +111,3 @@ class Home extends Component {
 }
 
 export default Home
-
-{/* <form>
-<h5>Search for jobs:</h5>
-<Input 
-    value={this.state.search}
-    onChange={this.handleInputChange}
-    name="search"
-    placeholder="e.g. Plumbing"
-/>
-<SubmitBtn onClick={this.handleFormSubmit}/>
-</form>
-
-{this.state.books.length ? (
-<ResultList 
-bookState={this.state.books}
-saveGoogleBook={this.saveGoogleBook}>
-</ResultList>
-) : (
-<div>
-    <hr/>
-<p style={{fontStyle: "italic"}}>Nothing to display yet...</p>
-</div>
-)} */}

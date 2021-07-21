@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container } from "../components/Grid/Grid";
-import Nav from "../components/Nav/Nav";
+import Nav from "../components/Nav";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import API from '../utils/API';
 import SavedList from "../components/SavedList/SavedList";

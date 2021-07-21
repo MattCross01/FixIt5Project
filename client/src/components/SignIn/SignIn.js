@@ -4,7 +4,9 @@ export default class SignIn extends Component {
     render() {
         return (
             <form>
-                <h3>Sign In</h3>
+                <div className="divHead">
+                    <h3>Sign In</h3>
+                </div>
 
                 <div className="form-group">
                     <label>Email address</label>

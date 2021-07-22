@@ -1,14 +1,15 @@
 import React, { Component } from "react";
-import { Container } from "../components/Grid/Grid";
-import Nav from "../components/Nav";
-import Jumbotron from "../components/Jumbotron/Jumbotron";
-import Row from "../components/Row";
-import Col from "../components/Col";
-import API from "../utils/API";
+import EmployeeProfiles from "../components/EmployeeProfile/EmployeeProfiles";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Employees extends Component {
-
-    
+    render(){
+        return (
+            <div className="App">
+<EmployeeProfiles/>
+            </div>
+        );
+    }
 }
 
 export default Employees;

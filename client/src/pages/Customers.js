@@ -54,10 +54,3 @@ export default function FormPropsTextFields() {
 
   )}
 
-
-<<<<<<< HEAD
-=======
-export default Customer;
-
-
->>>>>>> 3928eada52a85df265a5aac0145e312dc80c8ae5

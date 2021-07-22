@@ -68,17 +68,6 @@ class Home extends Component {
                     <Row>
                     <Col size="md-12">
                         <p>
-<<<<<<< HEAD
-                        Welcome to the Fix it Five website! We are five dedicated handymen that can come up with different amazing solutions
-                        to your at home problems! Whether its about plumbing, landscaping, or even fixing random household appliances, look
-                        no further, we have the guy for you!
-                        </p>
-                        <p>
-                        Asking for a job is as simple as clicking a link! Fill out our job request form and fill in the requirements you need
-                        from us. One of our five amazing handyman will pick up your job and fullfill it for you! The best part of this is that
-                        prices are up to you and are completely negotiable! We pride ourselves in our work and you surely will not be 
-                        dissappointed!
-=======
                         Who is FIXIT5?
 FIXIT5 isn't the guy offering home repair services from the back of his pickup truck. FIXIT5 is your personal home improvement consultant and a trusted, knowledgeable resource that is part of a leading national service franchise. 
 Our experienced, professional home repair and improvement technicians are skilled craftsmen with an average of 10 years of experience in the trades. We’re so confident in the work we perform that each job we do, whether a repair, installation, assembly or organization task, is backed by our Done Right Guarantee.
@@ -101,7 +90,6 @@ Wide variety of repair, maintenance and improvements services
 Technicians have an average of 10 years’ experience in the trades and are fully insured for your safety
 We promise to clean up when we’re done
 Our quality workmanship is guaranteed
->>>>>>> 392aefa3587dc4c8f1695345fa549a5d89bbd585
                         </p>
                     </Col>
                     </Row>

@@ -1,6 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const seedCustomer = require('../seeds/customer-seeds');
 
 class Customer extends Model {}
 
@@ -22,7 +21,7 @@ Customer.init(
       type: DataTypes.STRING
     },
     email: {
-      type: DataTypes.INTEGER
+      type: DataTypes.STRING
     },
     foreign_key: {
       type: DataTypes.INTEGER

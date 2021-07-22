@@ -1,35 +1,31 @@
 {
-  "name": "FinalProject",
+  "name": "google-books",
   "version": "1.0.0",
-  "description": "",
+  "description": "Google Books",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MattCross01/FixIt5Project.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MattCross01/FixIt5Project/issues"
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
   },
-  "homepage": "https://github.com/MattCross01/FixIt5Project#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.2",
-    "express-session": "^1.17.2",
-    "handlebars": "^4.7.7",
-    "inquirer": "^8.1.1",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.2.5",
-    "nodemon": "^2.0.10",
-    "sequelize": "^6.6.5",
-    "utils": "^0.3.1"
+    "audit": "^0.0.6",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "express": "^4.16.3",
+    "fix": "^0.0.6",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.9.1",
+    "react-bootstrap": "^2.0.0-beta.4"
   }
 }

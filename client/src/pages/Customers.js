@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
+
 export default function FormPropsTextFields() {
   const classes = useStyles();
   
@@ -53,3 +54,40 @@ export default function FormPropsTextFields() {
     </form>
 
   )}
+
+export default function FormPropsTextFields() {
+  const classes = useStyles();
+  
+
+   return(
+      
+    <form className={classes.root} noValidate autoComplete="off">
+      <div className={classes.container}>
+          <div className={classes.flex}>
+        <TextField  required id="outlined-required" label="Required" defaultValue="First Name" variant="outlined" />
+        <TextField required id="outlined-required" label="Required" defaultValue="Last Name" variant="outlined"  />
+        </div>
+        </div>
+        <div>
+        <TextField required id="outlined-required" label="Required" defaultValue="E-Mail" variant="outlined" />
+        <TextField required id="outlined-required" label="Required" defaultValue="Phone Number" variant="outlined"  />
+        </div>
+        <div>
+        <TextField
+          id="outlined-multiline-static"
+          label="Required *"
+          multiline
+          rows={4}
+          defaultValue="Job discription"
+          variant="outlined"
+        />
+        </div>
+        <div>
+            <Button variant="contained" color="primary">Request Job</Button>
+        </div>
+    </form>
+
+  )}
+
+
+

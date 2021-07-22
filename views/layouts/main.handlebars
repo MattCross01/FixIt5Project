@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIXIT5</title>
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+</head>
+
+<body>        
+  <header class="navbar">
+    <img src="/public/images/fixit5-logo.png" alt="Girl in a jacket" style="width:500px;height:600px;">
+    <nav class="navbar-section">
+      <a href="/menu" class="navbar-brand mr-2">Menu</a>
+      <a href="/customers" class="btn btn-link">Customers</a>
+      <a href="/employees" class="btn btn-link">Employees</a>
+      <a href="/billing" class="btn btn-link">Billing</a>
+      <a href="/login">Login</a>
+      <!-- Conditionally render login or logout links -->
+      {{#if logged_in}}
+      {{!-- <a href="/profile">profile</a> | --}}
+      <button class="no-button" id="logout">Logout</button>
+      {{else}}
+      {{!-- <a href="/login">login</a> --}}
+      {{/if}}
+      <h1>
+        <a href="/">FIXIT5</a>
+      </h1>
+    </nav>
+    <section class="navbar-section">
+      <div class="input-group input-inline">
+        <input class="form-input" type="text" placeholder="search">
+        <button class="btn btn-primary input-group-btn">Search</button>
+      </div>
+    </section>
+  </header>
+    <main class="container container-fluid mt-5">
+      <!-- Render the sub layout -->
+      {{{ body }}}
+    </main>
+    <footer>
+      
+    </footer>
+  </div>
+
+  <!-- Render script for logged in users only -->
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>

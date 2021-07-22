@@ -1,5 +1,6 @@
-import React,{ Component } from 'react'
+import React from 'react';
 import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -8,100 +9,49 @@ const useStyles = makeStyles((theme) => ({
       margin: theme.spacing(1),
       width: '25ch',
     },
+    container:{
+        display: "flex",
+    },
+    flex: {
+        flexBasis: "70%" ,
+        maxWidth: "33%"
+    },
   },
 }));
 
-class Customer extends Component{
 
-    FormPropsTextField(){
-        const classes = useStyles();
-    }
-    
-constructor(props){
-	super(props)
-	this.state = { email:'',name:'', age:null, address:'',phoneNo:''}
-	this.handleChange = this.handleChange.bind(this)
-	this.handleSubmit = this.handleSubmit.bind(this)
-}
+export default function FormPropsTextFields() {
+  const classes = useStyles();
+  
 
-// Form submitting logic, prevent default page refresh
-handleSubmit(event){
-	const { email, name, age, address, phoneNo } = this.state
-	event.preventDefault()
-	alert(`
-	____Your Details____\n
-	Email : ${email}
-	Name : ${name}
-	Age : ${age}
-	Address : ${address}
-	Phone No : ${phoneNo}
-	`)
-}
+   return(
+      
+    <form className={classes.root} noValidate autoComplete="off">
+      <div className={classes.container}>
+          <div className={classes.flex}>
+        <TextField  required id="outlined-required" label="Required" defaultValue="First Name" variant="outlined" />
+        <TextField required id="outlined-required" label="Required" defaultValue="Last Name" variant="outlined"  />
+        </div>
+        </div>
+        <div>
+        <TextField required id="outlined-required" label="Required" defaultValue="E-Mail" variant="outlined" />
+        <TextField required id="outlined-required" label="Required" defaultValue="Phone Number" variant="outlined"  />
+        </div>
+        <div>
+        <TextField
+          id="outlined-multiline-static"
+          label="Required *"
+          multiline
+          rows={4}
+          defaultValue="Job discription"
+          variant="outlined"
+        />
+        </div>
+        <div>
+            <Button variant="contained" color="primary">Request Job</Button>
+        </div>
+    </form>
 
-handleChange(event){
-	this.setState({
-
-	[event.target.name] : event.target.value
-	})
-}
-
-render(){
-	return(
-	<form onSubmit={this.handleSubmit}>
-		<div>
-		<label htmlFor='email'>Email:</label>
-		<input
-			name='email'
-			placeholder='Email'
-			value = {this.state.email}
-			onChange={this.handleChange}
-		/>
-		</div>
-		<div>
-		<label htmlFor='name'>Name:</label>
-		<input
-			name='name'
-			placeholder='Name'
-			value={this.state.name}
-			onChange={this.handleChange}
-		/>
-		</div>
-		<div>
-		<label htmlFor='age'>Age</label>
-		<input
-			name='age'
-			placeholder='Age'
-			value={this.state.age}
-			onChange={this.handleChange}
-		/>
-		</div>
-		<div>
-		<label htmlFor='address'>Address</label>
-		<input
-			name='address'
-			placeholder='Address'
-			value={this.state.address}
-			onChange={this.handleChange}
-		/>
-		</div>
-		<div>
-		<label htmlFor='phoneNo'>Phone Number</label>
-		<input
-			name='phoneNo'
-			placeholder='Phone No'
-			value={this.state.phoneNo}
-			onChange={this.handleChange}
-		/>
-		</div>
-		<div>
-		<button>Submit Job</button>
-		</div>
-	</form>
-	)
-}
-}
-
-
-export default Customer;
+  )}
 
 

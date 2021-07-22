@@ -20,6 +20,13 @@ Fix It 5, Work Flow Application.
 
 ## Contributions
 
+  * Matt: https://github.com/MattCross01
+  * Cam: https://github.com/CMRushing
+  * Ken: https://github.com/KPetiote
+  * Winston: https://github.com/WAN2748
+  * Nestor: https://github.com/itsnestor
+
+
 ## License
 
   [![mitLicense](https://img.shields.io/badge/license-MIT-green?style=plastic)](https://choosealicense.com/licenses/bsd-3-clause/)

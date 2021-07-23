@@ -4,6 +4,8 @@ Fix It 5, Work Flow Application.
 
 ## Description
 
+Handyman service! Request odd jobs needed to be done in your house and have our special group of people help you out with it! Give the job needed, location, and price point then it will be sent to our pool of employees to pick up your job!
+
 ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -14,9 +16,13 @@ Fix It 5, Work Flow Application.
 
 ## Installation
 
+To use this application, the user can fork or clone. Then run npm install. See the technologies section for the application dependencies. Then to run this application locally, then type npm run start.
+
 ## Usage
 
 ## Links
+
+Heroku Deployment: 
 
 ## Contributions
 

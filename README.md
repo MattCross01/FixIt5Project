@@ -10,6 +10,7 @@ Handyman service! Request odd jobs needed to be done in your house and have our 
   * [Installation](#installation)
   * [Usage](#usage)
   * [Links](#links)
+  * [Screenshots](#screenshots)
   * [Contributions](#contributions)
   * [License](#license)
   * [Questions](#questions)
@@ -23,6 +24,8 @@ To use this application, the user can fork or clone. Then run npm install. See t
 ## Links
 
 Heroku Deployment: 
+
+## Screenshots
 
 ## Contributions
 

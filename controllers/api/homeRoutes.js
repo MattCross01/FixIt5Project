@@ -26,7 +26,7 @@ router.get('/', async (req, res) => {
         });
 
         const jobs = jobData.map((job) => job.get({ plain: true }));
-        console.log(pokemons);
+        console.log();
 
         res.render('homepage', {
             jobs,

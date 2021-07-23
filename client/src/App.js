@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Saved from "./pages/Saved";
 import Customers from "./pages/Customers";
 import EmployeeProfiles from "./components/EmployeeProfiles/EmployeeProfiles";
-import Billing from "./pages/Billing";
+import Billing from "./components/Billing/Billing";
 import SignUp from "./components/SignUp/SignUp";
 import SignIn from "./components/SignIn/SignIn";
 import Nav from "./components/Nav";

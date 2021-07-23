@@ -26,14 +26,14 @@ function Nav() {
                             About
                             </Link>
                         </li>
-                        <li className="nav-item active">
+                        {/* <li className="nav-item active">
                             <Link
                             to="/discover"
                             className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
                             >
                             Menu
                             </Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item active">
                             <Link
                             to="/customers"
@@ -44,18 +44,18 @@ function Nav() {
                         </li>
                         <li className="nav-item active">
                             <Link
-                            to="/employees"
-                            className={window.location.pathname === "/employees" ? "nav-link active" : "nav-link"}
+                            to="/billing"
+                            className={window.location.pathname === "/billing" ? "nav-link active" : "nav-link"}
                             >
-                            Employees
+                            Billing
                             </Link>
                         </li>
                         <li className="nav-item active">
                             <Link
-                            to="/billing"
+                            to="/employees"
                             className={window.location.pathname === "/employees" ? "nav-link active" : "nav-link"}
                             >
-                            Billing
+                            The 5 Handyman
                             </Link>
                         </li>
                         <li className="nav-item active">

@@ -28,8 +28,8 @@ export default class EmployeeProfiles extends Component{
                             <ListGroupItem>Interior Remodeling</ListGroupItem>
                         </ListGroup>
                         <Card.Body>
-                            <Card.Link className="green" href="winston@fixit5.com">Winston@fixit5.com</Card.Link>
-                            <Card.Link className="green" href="#">908-FIX-5000</Card.Link>
+                            <Card.Link className="green" href="mailto:winston@fixit5.com">Winston@fixit5.com</Card.Link>
+                            <Card.Link className="green" href="tel:9083495000">908-FIX-5000</Card.Link>
                         </Card.Body>
                         </Card>
                         <hr></hr>
@@ -51,8 +51,8 @@ export default class EmployeeProfiles extends Component{
                             <ListGroupItem>Interior Remodeling</ListGroupItem>
                         </ListGroup>
                         <Card.Body>
-                            <Card.Link className="green" href="winston@fixit5.com">Kenneth@fixit5.com</Card.Link>
-                            <Card.Link className="green" href="#">908-FIX-0005</Card.Link>
+                            <Card.Link className="green" href="mailto:kenneth@fixit5.com">Kenneth@fixit5.com</Card.Link>
+                            <Card.Link className="green" href="tel:9083490005">908-FIX-0005</Card.Link>
                         </Card.Body>
                         </Card>
                         <hr></hr>
@@ -74,8 +74,8 @@ export default class EmployeeProfiles extends Component{
                             <ListGroupItem>Interior Remodeling</ListGroupItem>
                         </ListGroup>
                         <Card.Body>
-                            <Card.Link className="green" href="matt@fixit5.com">Matt@fixit5.com</Card.Link>
-                            <Card.Link className="green" href="#">908-FIX-5550</Card.Link>
+                            <Card.Link className="green" href="mailto:matt@fixit5.com">Matt@fixit5.com</Card.Link>
+                            <Card.Link className="green" href="tel:9083495550">908-FIX-5550</Card.Link>
                         </Card.Body>
                         </Card>
                         <hr></hr>
@@ -97,8 +97,8 @@ export default class EmployeeProfiles extends Component{
                             <ListGroupItem>Interior Remodeling</ListGroupItem>
                         </ListGroup>
                         <Card.Body>
-                            <Card.Link className="green" href="nestor@fixit5.com">Nestor@fixit5.com</Card.Link>
-                            <Card.Link className="green" href="#">908-FIX-5555</Card.Link>
+                            <Card.Link className="green" href="mailto:nestor@fixit5.com">Nestor@fixit5.com</Card.Link>
+                            <Card.Link className="green" href="tel:9083495555">908-FIX-5555</Card.Link>
                         </Card.Body>
                         </Card>
                         <hr></hr>
@@ -120,8 +120,8 @@ export default class EmployeeProfiles extends Component{
                             <ListGroupItem>Interior Remodeling</ListGroupItem>
                         </ListGroup>
                         <Card.Body>
-                            <Card.Link className="green" href="cam@fixit5.com">Cam@fixit5.com</Card.Link>
-                            <Card.Link className="green" href="#">908-FIX-5500</Card.Link>
+                            <Card.Link className="green" href="mailto:cam@fixit5.com">Cam@fixit5.com</Card.Link>
+                            <Card.Link className="green" href="tel:9083495500">908-FIX-5500</Card.Link>
                         </Card.Body>
                         </Card>
                         <hr></hr>

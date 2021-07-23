@@ -37,4 +37,4 @@ Heroku Deployment:
   * Winston: https://github.com/WAN2748
   * Nestor: https://github.com/itsnestor
 
-## If you have any questions regarding this project, contact us! E-mails are provided on our profiles.
+## If you have any questions regarding this project, contact us! Emails are provided on our profiles.

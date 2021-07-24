@@ -1,4 +1,4 @@
-Fix It 5, Work Flow Application.
+## Fix It 5, Work Flow Application.
 
 ## License
 [![mitLicense](https://img.shields.io/badge/license-MIT-green?style=plastic)](https://choosealicense.com/licenses/bsd-3-clause/)
@@ -11,7 +11,6 @@ Handyman service! Request odd jobs needed to be done in your house and have our 
   * [License](#license)
   * [Description](#description)
   * [Installation](#installation)
-  * [Usage](#usage)
   * [Links](#links)
   * [Screenshots](#screenshots)
   * [Contributions](#contributions)
@@ -21,13 +20,24 @@ Handyman service! Request odd jobs needed to be done in your house and have our 
 
 To use this application, the user can fork or clone. Then run npm install. See the technologies section for the application dependencies. Then to run this application locally, then type npm run start.
 
-## Usage
-
 ## Links
 
 Heroku Deployment: 
 
 ## Screenshots
+
+Homepage: 
+
+![Screenshot](https://i.ibb.co/7pYtxzV/homepage.png)
+
+Signup Page: 
+
+![Screenshot](https://i.ibb.co/dgVcd3k/signup.png)
+
+Customer Request Form:
+
+![Screenshot](https://i.ibb.co/Dfk0T4w/customers.png)
+
 
 ## Contributions
 

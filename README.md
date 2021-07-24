@@ -18,7 +18,7 @@ Handyman service! Request odd jobs needed to be done in your house and have our 
 
 ## Installation
 
-To use this application, the user can fork or clone. Then run npm install. See the technologies section for the application dependencies. Then to run this application locally, then type npm run start.
+To use this application, the user can fork or clone. Then run 'npm install'. See the technologies section for the application dependencies. Then to run this application locally, then type 'npm run start'.
 
 ## Links
 
